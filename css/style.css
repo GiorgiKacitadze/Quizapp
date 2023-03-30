@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ body, ul, p, h1, h2, h3, h4, h5{
+     margin: 0;
+     padding: 0;
+ }
+
+ .qq{
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+ }
+
+
+ body{
+  background-color: rgb(62 62 193);
+  display: flex;
+  width: 100vw;
+  
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ body.correct{
+  background-color: green;
+ }
+
+ body.wrong{
+  background-color: red;
+ }
+
+
+
+ .btn-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+ 
+
+.cc{
+  width: 45%;
+  
+}
+
+
+
+
+ .qcon{
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: white;
+width: 50%;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0 0 10px 2px;
+ }
+
+
+ .btn{
+  border: 5px solid rgb(11 48 229);
+  background-color: rgb(11 48 229);
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  margin: 10px 5px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+  
+  
+  
+  
+ }
+
+ .btn:hover{
+  border: 5px solid black;
+  scale: 0.9;
+  
+ }
+
+ .btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+.btn.correct{
+  background-color: green;
+  color: black;
+}
+
+.btn.wrong{
+  background-color: red;
+  
+}
+
+
+.start-btn, .next-btn{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
